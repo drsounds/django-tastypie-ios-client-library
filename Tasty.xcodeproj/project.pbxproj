@@ -16,6 +16,16 @@
 		50C520E9191627720062F5D5 /* libTasty.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C520D1191627710062F5D5 /* libTasty.a */; };
 		50C520EF191627720062F5D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50C520ED191627720062F5D5 /* InfoPlist.strings */; };
 		50C520F1191627720062F5D5 /* TastyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C520F0191627720062F5D5 /* TastyTests.m */; };
+		50C520FC1916279D0062F5D5 /* TastyEndpoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C520FB1916279D0062F5D5 /* TastyEndpoint.m */; };
+		50C520FD1916279D0062F5D5 /* TastyEndpoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C520FB1916279D0062F5D5 /* TastyEndpoint.m */; };
+		50C521001916280F0062F5D5 /* TastyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C520FF1916280F0062F5D5 /* TastyObject.m */; };
+		50C521011916280F0062F5D5 /* TastyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C520FF1916280F0062F5D5 /* TastyObject.m */; };
+		50C52104191628350062F5D5 /* TastyResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C52103191628350062F5D5 /* TastyResult.m */; };
+		50C52105191628350062F5D5 /* TastyResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C52103191628350062F5D5 /* TastyResult.m */; };
+		50C52108191628430062F5D5 /* TastyUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C52107191628430062F5D5 /* TastyUser.m */; };
+		50C52109191628430062F5D5 /* TastyUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C52107191628430062F5D5 /* TastyUser.m */; };
+		50C5210C19162F840062F5D5 /* TastyQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5210B19162F840062F5D5 /* TastyQuery.m */; };
+		50C5210D19162F840062F5D5 /* TastyQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5210B19162F840062F5D5 /* TastyQuery.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +63,16 @@
 		50C520EC191627720062F5D5 /* TastyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TastyTests-Info.plist"; sourceTree = "<group>"; };
 		50C520EE191627720062F5D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		50C520F0191627720062F5D5 /* TastyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TastyTests.m; sourceTree = "<group>"; };
+		50C520FA1916279D0062F5D5 /* TastyEndpoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TastyEndpoint.h; sourceTree = "<group>"; };
+		50C520FB1916279D0062F5D5 /* TastyEndpoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TastyEndpoint.m; sourceTree = "<group>"; };
+		50C520FE1916280F0062F5D5 /* TastyObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TastyObject.h; sourceTree = "<group>"; };
+		50C520FF1916280F0062F5D5 /* TastyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TastyObject.m; sourceTree = "<group>"; };
+		50C52102191628350062F5D5 /* TastyResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TastyResult.h; sourceTree = "<group>"; };
+		50C52103191628350062F5D5 /* TastyResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TastyResult.m; sourceTree = "<group>"; };
+		50C52106191628430062F5D5 /* TastyUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TastyUser.h; sourceTree = "<group>"; };
+		50C52107191628430062F5D5 /* TastyUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TastyUser.m; sourceTree = "<group>"; };
+		50C5210A19162F840062F5D5 /* TastyQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TastyQuery.h; sourceTree = "<group>"; };
+		50C5210B19162F840062F5D5 /* TastyQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TastyQuery.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +133,16 @@
 				50C520D9191627710062F5D5 /* Tasty.h */,
 				50C520DB191627710062F5D5 /* Tasty.m */,
 				50C520D7191627710062F5D5 /* Supporting Files */,
+				50C520FA1916279D0062F5D5 /* TastyEndpoint.h */,
+				50C52106191628430062F5D5 /* TastyUser.h */,
+				50C52107191628430062F5D5 /* TastyUser.m */,
+				50C520FE1916280F0062F5D5 /* TastyObject.h */,
+				50C52102191628350062F5D5 /* TastyResult.h */,
+				50C52103191628350062F5D5 /* TastyResult.m */,
+				50C520FF1916280F0062F5D5 /* TastyObject.m */,
+				50C520FB1916279D0062F5D5 /* TastyEndpoint.m */,
+				50C5210A19162F840062F5D5 /* TastyQuery.h */,
+				50C5210B19162F840062F5D5 /* TastyQuery.m */,
 			);
 			path = Tasty;
 			sourceTree = "<group>";
@@ -224,7 +254,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50C52104191628350062F5D5 /* TastyResult.m in Sources */,
+				50C520FC1916279D0062F5D5 /* TastyEndpoint.m in Sources */,
+				50C5210C19162F840062F5D5 /* TastyQuery.m in Sources */,
+				50C52108191628430062F5D5 /* TastyUser.m in Sources */,
 				50C520DC191627710062F5D5 /* Tasty.m in Sources */,
+				50C521001916280F0062F5D5 /* TastyObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50C52105191628350062F5D5 /* TastyResult.m in Sources */,
+				50C520FD1916279D0062F5D5 /* TastyEndpoint.m in Sources */,
+				50C5210D19162F840062F5D5 /* TastyQuery.m in Sources */,
+				50C52109191628430062F5D5 /* TastyUser.m in Sources */,
 				50C520F1191627720062F5D5 /* TastyTests.m in Sources */,
+				50C521011916280F0062F5D5 /* TastyObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
